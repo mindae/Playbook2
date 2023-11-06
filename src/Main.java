@@ -23,7 +23,7 @@ public class Main {
         System.out.println(newnum + 5);
         System.out.println(newnum + 3);
         System.out.println(newnum + 6);
-        System.out.println(newnum + 7777);
+        System.out.println(newnum + 8888);
 
         Stream.of("hello", "world!","hello")
                 .collect(Collectors.toMap(Function.identity(), String::length, (e, n) -> e))
