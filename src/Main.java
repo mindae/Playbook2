@@ -20,6 +20,8 @@ public class Main {
         System.out.println(newnum + 2);
         System.out.println(newnum + 2);
 
+        System.out.println(newnum + 3);
+        System.out.println(newnum + 3);
 
         Stream.of("hello", "world!","hello")
                 .collect(Collectors.toMap(Function.identity(), String::length, (e, n) -> e))
